@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+header {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.bg-uofm-blue {
+    background-color: #00274c;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  .error-msg {
+    background-color: #a00000; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    position: relative; 
+    color: white;
+  }
+
+  .alert-msg {
+    background-color: #a56011; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    position: relative; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .success-msg {
+    background-color: #048100; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    position: relative; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  input {
+      padding: 10px;
+  }
